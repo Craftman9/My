@@ -1,0 +1,7 @@
+var allCheckBoxes = document.querySelectorAll('.todo-list-input');
+for (let i =0; i< allCheckBoxes.length; i++) {
+  let checkBox = allCheckBoxes[i];
+  checkBox.addEventListener('change', function(){
+    console.log('aaaa');
+  })
+}
